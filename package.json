@@ -1,0 +1,51 @@
+{
+	"name": "llvm-ir",
+	"displayName": "LLVM IR",
+	"description": "LLVM IR",
+	"version": "0.1.1",
+	"publisher": "sunshaoce",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "llvm",
+				"aliases": [
+					"LLVM",
+					"llvm"
+				],
+				"extensions": [
+					".ll",
+					".s"
+				],
+				"configuration": "./llvm.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "llvm",
+				"scopeName": "source.llvm",
+				"path": "./llvm.tmbundle/Syntaxes/LLVM.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "llvm",
+				"path": "./snippets.json"
+			}
+		]
+	},
+	"bugs": {
+		"url": "https://github.com/sunshaoce/LLVM-IR/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sunshaoce/LLVM-IR.git"
+	},
+	"homepage": "https://github.com/sunshaoce/LLVM-IR/blob/master/README.md"
+}
