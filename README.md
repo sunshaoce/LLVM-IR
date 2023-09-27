@@ -2,7 +2,7 @@
 
 Syntax highlighting and snippets for LLVM IR (LLVM Intermediate Representation).
 
-Syntax highlighting and snippets were taken from [LLVM TextMate Bundle](https://github.com/whitequark/LLVM.tmBundle).
+[This project](https://github.com/sunshaoce/LLVM-IR) is copied and adapted from [vscode-llvm](https://github.com/RReverser/vscode-llvm) and [LLVM TextMate Bundle](https://github.com/whitequark/LLVM.tmBundle).
 
 ## Features
 

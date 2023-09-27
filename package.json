@@ -1,8 +1,8 @@
 {
-	"name": "llvm-ir",
+	"name": "llvmir",
 	"displayName": "LLVM IR",
-	"description": "LLVM IR",
-	"version": "0.1.1",
+	"description": "LLVM IR highlight",
+	"version": "0.1.2",
 	"publisher": "sunshaoce",
 	"engines": {
 		"vscode": "^0.10.1"
