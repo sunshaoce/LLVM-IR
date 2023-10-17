@@ -74,6 +74,7 @@
 				or |
 				ord |
 				phi |
+				poison |
 				ptrtoint |
 				resume |
 				ret |
@@ -89,6 +90,7 @@
 				slt |
 				srem |
 				store |
+				strictfp |
 				sub |
 				switch |
 				to |
@@ -175,12 +177,20 @@
 			<key>name</key>
 			<string>variable.metadata.llvm</string>
 		</dict>
-		<dict>
-			<key>match</key>
-			<string>([A-Za-z0-9_]+):</string>
-			<key>name</key>
-			<string>meta.function.label</string>
-		</dict>
+      <dict>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>entity.name.function.label.riscv</string>
+          </dict>
+        </dict>
+        <key>match</key>
+				<string>([A-Za-z0-9_]+):</string>
+        <key>name</key>
+        <string>meta.function.label.ir</string>
+      </dict>
 		<dict>
 			<key>match</key>
 			<string>;.*$</string>
