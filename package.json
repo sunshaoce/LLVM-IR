@@ -3,7 +3,7 @@
 	"displayName": "LLVM IR",
 	"description": "LLVM IR highlight",
 	"publisher": "sunshaoce",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -48,5 +48,8 @@
 		"type": "git",
 		"url": "https://github.com/sunshaoce/LLVM-IR.git"
 	},
-	"homepage": "https://github.com/sunshaoce/LLVM-IR/blob/master/README.md"
+	"homepage": "https://github.com/sunshaoce/LLVM-IR/blob/master/README.md",
+	"dependencies": {
+		"vsce": "^2.15.0"
+	}
 }
