@@ -38,6 +38,7 @@
 				extractelement |
 				extractvalue |
 				fadd |
+				fast |
 				fcmp |
 				fdiv |
 				fence |
