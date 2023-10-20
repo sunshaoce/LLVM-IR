@@ -22,6 +22,7 @@
 			<string>llvm instructions</string>
 			<key>match</key>
 			<string>(?x)\b(
+				[ ]x[ ] |
 				add |
 				alloca |
 				and |
@@ -33,6 +34,7 @@
 				call |
 				cmpxchg |
 				contract |
+				dso_local |
 				eq |
 				exact |
 				extractelement |
@@ -63,6 +65,7 @@
 				lshr |
 				mul |
 				ne |
+				noundef |
 				nsw |
 				nsz |
 				nuw |
