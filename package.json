@@ -48,8 +48,5 @@
 		"type": "git",
 		"url": "https://github.com/sunshaoce/LLVM-IR.git"
 	},
-	"homepage": "https://github.com/sunshaoce/LLVM-IR/blob/master/README.md",
-	"dependencies": {
-		"vsce": "^2.15.0"
-	}
+	"homepage": "https://github.com/sunshaoce/LLVM-IR/blob/master/README.md"
 }
