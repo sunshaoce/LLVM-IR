@@ -184,11 +184,11 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>entity.name.function.label.riscv</string>
+            <string>entity.name.function.label.llvm</string>
           </dict>
         </dict>
         <key>match</key>
-				<string>([A-Za-z0-9_]+):</string>
+				<string>([.A-Za-z0-9_]+):</string>
         <key>name</key>
         <string>meta.function.label.ir</string>
       </dict>
