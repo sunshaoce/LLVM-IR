@@ -203,7 +203,11 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b\d+\.\d+(e-?\d+)\b</string>
+        <string>(?ix)\b(
+          \d+\.\d+ |
+          \d+\.\d+[e][+-]\d+ |
+          \d+|0(x|X)[a-fA-F0-9]+(\.[a-fA-F0-9]*)?c?p[+-]\d+
+          )\b</string>
 			<key>name</key>
 			<string>constant.numeric.float.llvm</string>
 		</dict>
