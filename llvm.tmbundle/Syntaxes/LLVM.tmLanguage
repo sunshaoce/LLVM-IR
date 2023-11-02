@@ -32,6 +32,7 @@
 				bitcast |
 				br |
 				call |
+				cleanup |
 				cmpxchg |
 				contract |
 				dso_local |
@@ -127,7 +128,123 @@
 			<key>comment</key>
 			<string>llvm keywords</string>
 			<key>match</key>
-			<string>\b(acq_rel|acquire|addrspace|alias|align|alignstack|alwaysinline|appending|argmemonly|attributes|asm|blockaddress|byval|c|cc|ccc|coldcc|common|constant|convergent|datalayout|declare|default|define|deplibs|dereferenceable|dereferenceable_or_null|dllexport|dllimport|except|extern_weak|external|false|fastcc|gc|global|hidden|inalloca|inaccessiblememonly|inaccessiblemem_or_argmemonly|inlinehint|inreg|internal|jumptable|linkonce|linkonce_odr|local_unnamed_addr|metadata|minsize|module|monotonic|naked|nest|noalias|nobuiltin|noduplicate|nonnull|nocapture|noimplicitfloat|noinline|nonlazybind|noredzone|noreturn|norecurse|nounwind|null|opaque|optnone|optsize|personality|prefix|prologue|private|protected|ptx_device|ptx_kernel|readnone|readonly|release|returned|returns_twice|safestack|sanitize_address|sanitize_memory|sanitize_thread|section|seq_cst|sideeffect|signext|sret|ssp|sspreq|sspstrong|swiftself|swifterror|tail|target|thread_local|triple|true|type|undef|unnamed_addr|unordered|uwtable|volatile|weak|weak_odr|writeonly|x86_fastcallcc|x86_stdcallcc|zeroext|zeroinitializer)\b(?!\s*:)</string>
+			<string>(?ix)\b(
+				acq_rel |
+				acquire |
+				addrspace |
+				alias |
+				align |
+				alignstack |
+				alwaysinline |
+				appending |
+				argmemonly |
+				asm |
+				attributes |
+				blockaddress |
+				byval |
+				c |
+				cc |
+				ccc |
+				coldcc |
+				common |
+				constant |
+				convergent |
+				datalayout |
+				declare |
+				default |
+				define |
+				deplibs |
+				dereferenceable |
+				dereferenceable_or_null |
+				distinct |
+				dllexport |
+				dllimport |
+				except |
+				extern_weak |
+				external |
+				false |
+				fastcc |
+				gc |
+				global |
+				hidden |
+				inaccessiblemem_or_argmemonly |
+				inaccessiblememonly |
+				inalloca |
+				inlinehint |
+				inreg |
+				internal |
+				jumptable |
+				linkonce |
+				linkonce_odr |
+				local_unnamed_addr |
+				metadata |
+				minsize |
+				module |
+				monotonic |
+				naked |
+				nest |
+				noalias |
+				nobuiltin |
+				nocapture |
+				noduplicate |
+				noimplicitfloat |
+				noinline |
+				nonlazybind |
+				nonnull |
+				norecurse |
+				noredzone |
+				noreturn |
+				nounwind |
+				null |
+				opaque |
+				optnone |
+				optsize |
+				personality |
+				prefix |
+				private |
+				prologue |
+				protected |
+				ptx_device |
+				ptx_kernel |
+				readnone |
+				readonly |
+				release |
+				returned |
+				returns_twice |
+				safestack |
+				sanitize_address |
+				sanitize_memory |
+				sanitize_thread |
+				section |
+				seq_cst |
+				sideeffect |
+				signext |
+				source_filename |
+				sret |
+				ssp |
+				sspreq |
+				sspstrong |
+				swifterror |
+				swiftself |
+				tail |
+				target |
+				thread_local |
+				triple |
+				true |
+				type |
+				undef |
+				unnamed_addr |
+				unordered |
+				uwtable |
+				volatile |
+				weak |
+				weak_odr |
+				writeonly |
+				x86_fastcallcc |
+				x86_stdcallcc |
+				zeroext |
+				zeroinitializer
+				)\b(?!\s*:)</string>
 			<key>name</key>
 			<string>storage.modifier.llvm</string>
 		</dict>
