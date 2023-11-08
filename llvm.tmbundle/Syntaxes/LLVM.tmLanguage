@@ -263,7 +263,6 @@
 				fp128 |
 				half |
 				i\d+\** |
-				label |
 				metadata |
 				ppc_fp128 |
 				ptr |
@@ -298,20 +297,34 @@
 			<key>name</key>
 			<string>variable.metadata.llvm</string>
 		</dict>
-      <dict>
-        <key>captures</key>
-        <dict>
-          <key>1</key>
-          <dict>
-            <key>name</key>
-            <string>entity.name.function.label.llvm</string>
-          </dict>
-        </dict>
-        <key>match</key>
-				<string>([.A-Za-z0-9_]+):</string>
-        <key>name</key>
-        <string>meta.function.label.ir</string>
-      </dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.label.llvm</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>([.A-Za-z0-9_]+):</string>
+			<key>name</key>
+			<string>meta.function.label.ir</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.label.llvm.2</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\blabel( %[.A-Za-z0-9_]+)\b</string>
+			<key>name</key>
+			<string>meta.function.label.ir.2</string>
+		</dict>
 		<dict>
 			<key>match</key>
 			<string>;.*$</string>
