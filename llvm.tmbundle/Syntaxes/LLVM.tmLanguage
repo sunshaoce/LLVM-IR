@@ -375,7 +375,7 @@
 					<key>match</key>
 					<string>\\..</string>
 					<key>name</key>
-					<string>constant.character.escape.lvvm</string>
+					<string>constant.character.escape.llvm</string>
 				</dict>
 			</array>
 		</dict>
