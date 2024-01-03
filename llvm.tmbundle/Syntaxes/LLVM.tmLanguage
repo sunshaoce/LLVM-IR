@@ -66,6 +66,7 @@
 				lshr |
 				mul |
 				ne |
+				nnan |
 				nneg |
 				noundef |
 				nsw |
@@ -168,6 +169,7 @@
 				gc |
 				global |
 				hidden |
+				immarg |
 				inaccessiblemem_or_argmemonly |
 				inaccessiblememonly |
 				inalloca |
@@ -178,6 +180,7 @@
 				linkonce |
 				linkonce_odr |
 				local_unnamed_addr |
+				memory |
 				metadata |
 				minsize |
 				module |
@@ -186,8 +189,10 @@
 				nest |
 				noalias |
 				nobuiltin |
+				nocallback |
 				nocapture |
 				noduplicate |
+				nofree |
 				noimplicitfloat |
 				noinline |
 				nonlazybind |
@@ -195,6 +200,7 @@
 				norecurse |
 				noredzone |
 				noreturn |
+				nosync |
 				nounwind |
 				null |
 				opaque |
@@ -209,6 +215,7 @@
 				ptx_kernel |
 				readnone |
 				readonly |
+				readwrite |
 				release |
 				returned |
 				returns_twice |
@@ -240,6 +247,7 @@
 				volatile |
 				weak |
 				weak_odr |
+				willreturn |
 				writeonly |
 				x86_fastcallcc |
 				x86_stdcallcc |
@@ -285,6 +293,12 @@
 			<string>([%]\d+)</string>
 			<key>name</key>
 			<string>variable.language.llvm</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(#\d+)</string>
+			<key>name</key>
+			<string>variable.metadata.llvm</string>
 		</dict>
 		<dict>
 			<key>match</key>
