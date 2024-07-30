@@ -230,6 +230,7 @@
 				sanitize_thread |
 				section |
 				seq_cst |
+				shadowcallstack |
 				sideeffect |
 				signext |
 				source_filename |
@@ -341,7 +342,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(label[ \n]+%[.A-Za-z0-9_]+)\b</string>
+			<string>\b(label[ ]+%[.A-Za-z0-9_]+)\b</string>
 			<key>name</key>
 			<string>meta.function.label.ir.2</string>
 		</dict>
