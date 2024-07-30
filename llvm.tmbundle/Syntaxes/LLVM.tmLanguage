@@ -99,6 +99,7 @@
 				sitofp |
 				sle |
 				slt |
+				splat |
 				srem |
 				store |
 				strictfp |
@@ -340,7 +341,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\blabel( %[.A-Za-z0-9_]+)\b</string>
+			<string>\b(label[ \n]+%[.A-Za-z0-9_]+)\b</string>
 			<key>name</key>
 			<string>meta.function.label.ir.2</string>
 		</dict>
