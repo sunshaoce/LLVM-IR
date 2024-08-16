@@ -164,6 +164,7 @@
 				dereferenceable |
 				dereferenceable_or_null |
 				distinct |
+				disjoint |
 				dllexport |
 				dllimport |
 				except |
