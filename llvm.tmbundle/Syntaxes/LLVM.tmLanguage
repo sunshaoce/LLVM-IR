@@ -219,6 +219,7 @@
 				protected |
 				ptx_device |
 				ptx_kernel |
+				range |
 				readnone |
 				readonly |
 				readwrite |
@@ -329,7 +330,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>([.A-Za-z0-9_]+):</string>
+			<string>([-.A-Za-z0-9_]+):</string>
 			<key>name</key>
 			<string>meta.function.label.ir</string>
 		</dict>
