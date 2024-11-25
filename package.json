@@ -1,9 +1,10 @@
 {
-	"name": "llvm",
-	"displayName": "LLVM",
-	"description": "LLVM IR syntax highlight",
-	"version": "0.2.0",
-	"publisher": "RReverser",
+	"name": "llvmir",
+	"displayName": "LLVM IR",
+	"description": "LLVM IR highlight",
+	"publisher": "sunshaoce",
+	"version": "0.1.30",
+	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^0.10.1"
 	},
@@ -23,11 +24,7 @@
 					".ll",
 					".s"
 				],
-				"configuration": "./llvm.configuration.json",
-				"icon": {
-					"dark": "./icon/llvm-icon.png",
-					"light": "./icon/llvm-icon.png"
-				}
+				"configuration": "./llvm.configuration.json"
 			}
 		],
 		"grammars": [
@@ -45,11 +42,11 @@
 		]
 	},
 	"bugs": {
-		"url": "https://github.com/RReverser/vscode-llvm/issues"
+		"url": "https://github.com/sunshaoce/LLVM-IR/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/RReverser/vscode-llvm.git"
+		"url": "https://github.com/sunshaoce/LLVM-IR.git"
 	},
-	"homepage": "https://github.com/RReverser/vscode-llvm/blob/master/README.md"
+	"homepage": "https://github.com/sunshaoce/LLVM-IR/blob/master/README.md"
 }
