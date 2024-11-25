@@ -191,6 +191,7 @@
 				minsize |
 				module |
 				monotonic |
+				mustprogress |
 				naked |
 				nest |
 				noalias |
@@ -201,6 +202,7 @@
 				nofree |
 				noimplicitfloat |
 				noinline |
+				none |
 				nonlazybind |
 				nonnull |
 				norecurse |
