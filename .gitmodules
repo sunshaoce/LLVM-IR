@@ -1,0 +1,3 @@
+[submodule "LLVM.tmBundle"]
+	path = LLVM.tmBundle
+	url = https://github.com/sunshaoce/LLVM.tmBundle.git
