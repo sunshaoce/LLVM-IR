@@ -1,4 +1,4 @@
-# LLVM
+# LLVM IR
 
 Syntax highlighting and snippets for LLVM IR (LLVM Intermediate Representation).
 
