@@ -3,7 +3,7 @@
 	"displayName": "LLVM IR",
 	"description": "LLVM IR highlight",
 	"publisher": "sunshaoce",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -22,7 +22,8 @@
 				],
 				"extensions": [
 					".ll",
-					".s"
+					".llvm",
+					".llvmir"
 				],
 				"configuration": "./llvm.configuration.json"
 			}
