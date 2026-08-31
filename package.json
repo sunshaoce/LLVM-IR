@@ -3,7 +3,7 @@
 	"displayName": "LLVM IR",
 	"description": "LLVM IR highlight",
 	"publisher": "sunshaoce",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"main": "./extension.js",
 	"activationEvents": [
 		"onLanguage:llvm"
@@ -17,6 +17,11 @@
 		"Snippets"
 	],
 	"contributes": {
+		"configurationDefaults": {
+			"[llvm]": {
+				"editor.maxTokenizationLineLength": 50000
+			}
+		},
 		"languages": [
 			{
 				"id": "llvm",

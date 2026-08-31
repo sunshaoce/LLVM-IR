@@ -2,7 +2,7 @@
 	"comments": {
 		"lineComment": ";"
 	},
-	"wordPattern": "[%@]?(?:[-a-zA-Z$._][-a-zA-Z$._0-9]*|\\d+)",
+	"wordPattern": "[%@$]?(?:[-a-zA-Z$._][-a-zA-Z$._0-9]*|\\d+)",
 	"brackets": [
 			["{", "}"],
 			["[", "]"],
