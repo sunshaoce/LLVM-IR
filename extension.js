@@ -116,9 +116,10 @@ function functionReferenceAtPosition(line, character) {
 }
 
 function labelReferenceAtPosition(line, character) {
+	const code = withoutComment(line);
 	LABEL_REFERENCE.lastIndex = 0;
 	let match;
-	while ((match = LABEL_REFERENCE.exec(line))) {
+	while ((match = LABEL_REFERENCE.exec(code))) {
 		const start = match.index;
 		const end = start + match[0].length;
 		if (character < start || character > end) {
@@ -126,13 +127,17 @@ function labelReferenceAtPosition(line, character) {
 		}
 
 		const before = line.slice(0, start);
-		if (/\blabel\s*$/.test(before) || /\bblockaddress\s*\([^,]*,\s*$/.test(before)) {
+		if (
+			/\blabel\s*$/.test(before) ||
+			/\bblockaddress\s*\([^,]*,\s*$/.test(before) ||
+			(/\bphi\b/.test(code) && /\[[^\]]*,\s*$/.test(before))
+		) {
 			return { name: match[1] };
 		}
 	}
 
 	LABEL_KEYWORD.lastIndex = 0;
-	while ((match = LABEL_KEYWORD.exec(line))) {
+	while ((match = LABEL_KEYWORD.exec(code))) {
 		const start = match.index;
 		const end = start + match[0].length;
 		if (character < start || character > end) {
