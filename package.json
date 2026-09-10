@@ -3,7 +3,7 @@
 	"displayName": "LLVM IR",
 	"description": "LLVM IR highlight",
 	"publisher": "sunshaoce",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"main": "./extension.js",
 	"activationEvents": [
 		"onLanguage:llvm"
