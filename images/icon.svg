@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">LLVM dragon avatar</title>
+  <desc id="description">A friendly full-body LLVM-inspired dragon drawn in white on the original #317AC6 blue circle. Broad bat wings, swept-back horns, a gently curved neck, plated belly and little claws. One long, tapered tail sweeps toward the lower left, balancing the body on the right without any crossings. No lettering. The corners outside the circle are transparent.</desc>
+  <defs>
+    <clipPath id="belly-plates" clipPathUnits="userSpaceOnUse">
+      <path d="M351 158 C362 184 338 214 336 252 C333 298 350 340 377 379 C395 408 423 435 424 451 C427 470 397 476 367 473 L425 480 C438 475 446 466 445 456 C443 442 424 416 403 389 C377 351 360 310 359 264 C358 224 378 194 376 169 Z"/>
+    </clipPath>
+  </defs>
+  <circle cx="512" cy="512" r="512" fill="#317AC6"/>
+  <g transform="translate(64 153) scale(1.28)" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Broad scalloped wings and their curved supporting fingers. -->
+    <g id="left-wing">
+      <path fill="#317AC6" d="M351 223 C307 216 262 203 229 193 L223 103 C166 82 111 86 74 124 C30 168 18 240 30 337 C39 290 60 272 84 295 C109 268 143 267 164 285 C184 257 215 256 239 276 C276 297 320 265 351 243 Z"/>
+      <g fill="none" stroke-width="5.5">
+        <path d="M223 103 C147 123 63 160 28 236"/>
+        <path d="M223 103 Q212 151 229 193 C164 178 112 216 84 295"/>
+        <path d="M229 193 Q183 220 164 285"/>
+        <path d="M229 193 Q281 222 346 234"/>
+      </g>
+      <path fill="#317AC6" stroke-width="6" d="M211 105 Q211 87 216 76 Q229 82 234 97 Q235 110 224 113 Q216 113 211 105 Z"/>
+    </g>
+    <g transform="translate(700 0) scale(-1 1)">
+      <path fill="#317AC6" d="M351 223 C307 216 262 203 229 193 L223 103 C166 82 111 86 74 124 C30 168 18 240 30 337 C39 290 60 272 84 295 C109 268 143 267 164 285 C184 257 215 256 239 276 C276 297 320 265 351 243 Z"/>
+      <g fill="none" stroke-width="5.5">
+        <path d="M223 103 C147 123 63 160 28 236"/>
+        <path d="M223 103 Q212 151 229 193 C164 178 112 216 84 295"/>
+        <path d="M229 193 Q183 220 164 285"/>
+        <path d="M229 193 Q281 222 346 234"/>
+      </g>
+      <path fill="#317AC6" stroke-width="6" d="M211 105 Q211 87 216 76 Q229 82 234 97 Q235 110 224 113 Q216 113 211 105 Z"/>
+    </g>
+
+    <!-- Soft, swept-back neck spines. -->
+    <g fill="#317AC6" stroke-width="5">
+      <path d="M395 178 Q409 187 423 182 Q415 196 393 197"/>
+      <path d="M391 204 Q408 216 423 212 Q412 228 388 226"/>
+      <path d="M388 233 Q406 245 422 242 Q411 257 390 254"/>
+      <path d="M392 263 Q409 275 426 273 Q416 289 398 284"/>
+    </g>
+
+    <!-- Little bent forelegs and rounded palms. -->
+    <g fill="#317AC6">
+      <path d="M352 276 Q335 280 327 307 L314 326 L294 306 Q278 293 264 300 Q251 305 253 322 L265 329 Q273 317 282 322 L306 347 Q321 359 334 345 Q353 324 362 300 Z"/>
+      <path d="M392 278 Q410 282 418 307 L431 326 L451 306 Q467 293 481 300 Q494 305 492 322 L480 329 Q472 317 463 322 L439 347 Q424 359 411 345 Q392 324 383 300 Z"/>
+    </g>
+
+    <!-- A single silhouette with a broad leftward sweep. The tapered tail
+         balances the right-leaning torso and echoes the arc of the wings. -->
+    <path fill="#317AC6" d="M351 158 C362 184 338 214 336 252 C333 298 350 340 377 379 C395 408 423 435 424 451 C427 470 397 476 367 473 C291 468 222 441 194 400 Q200 438 232 464 C287 510 387 527 448 501 C474 490 489 471 481 447 C473 423 438 399 408 364 C387 321 377 275 384 234 C392 194 414 159 403 133 Z"/>
+
+    <!-- Belly plates follow the same curve as the neck. -->
+    <g fill="none" stroke-width="4.5">
+      <path d="M376 169 C378 194 358 224 359 264 C360 310 377 351 403 389 C424 416 443 442 445 456 C446 466 438 475 425 480"/>
+      <g clip-path="url(#belly-plates)">
+      <path d="M351 191 L361 201 L374 194"/>
+      <path d="M342 220 L351 232 L365 225"/>
+      <path d="M336 252 L346 264 L359 257"/>
+      <path d="M338 285 L350 297 L362 289"/>
+      <path d="M346 316 L360 328 L371 319"/>
+      <path d="M360 349 L375 359 L386 349"/>
+      <path d="M379 382 L395 390 L405 380"/>
+      <path d="M402 414 L418 419 L426 408"/>
+      </g>
+    </g>
+
+    <!-- Horns sweep backward, as on the LLVM reference. -->
+    <g fill="#317AC6" stroke-width="5.5">
+      <path d="M324 108 C330 85 350 71 376 62 Q357 84 356 104 Z"/>
+      <path d="M349 101 C361 76 383 64 410 60 Q388 76 380 104 Z"/>
+      <path d="M377 104 Q399 85 421 87 Q408 100 403 119 Z"/>
+      <path d="M400 119 Q420 113 433 119 L410 134"/>
+    </g>
+
+    <!-- A slightly rounder head, with an alert eye and a tiny smiling fang. -->
+    <path fill="#317AC6" stroke="none" d="M351 158 Q330 169 309 155 L290 155 Q275 156 279 141 L294 127 Q297 111 316 108 C329 87 374 87 398 105 C418 119 418 146 403 163 L390 177 L359 174 Z"/>
+    <g fill="none">
+      <path d="M351 158 Q330 169 309 155 L290 155 Q275 156 279 141 L294 127 Q297 111 316 108 C329 87 374 87 398 105 C418 119 418 146 403 163"/>
+      <path stroke-width="4.5" d="M287 144 Q312 155 334 141"/>
+      <path stroke-width="4.5" d="M322 111 Q334 105 345 110"/>
+      <path stroke-width="4.5" d="M375 126 Q382 138 375 149"/>
+    </g>
+    <g fill="#fff" stroke="none">
+      <ellipse cx="334" cy="127" rx="10.5" ry="13"/>
+      <path d="M305 151 L310 161 Q311 163 313 160 L318 153 Z"/>
+      <ellipse cx="291" cy="134" rx="3.5" ry="2.5" transform="rotate(-25 291 134)"/>
+    </g>
+    <ellipse cx="331" cy="128" rx="5" ry="8" fill="#317AC6" stroke="none"/>
+    <circle cx="329" cy="124" r="2.8" fill="#fff" stroke="none"/>
+
+    <!-- Three ivory talons per forepaw, keeping the silhouette legible. -->
+    <g fill="#fff" stroke="none">
+      <path d="M261 310 C249 317 244 331 251 344 Q250 329 269 318 Z"/>
+      <path d="M274 308 C264 319 262 335 271 345 Q268 330 282 317 Z"/>
+      <path d="M287 311 C280 322 280 335 290 342 Q285 327 294 320 Z"/>
+      <path d="M484 310 C496 317 501 331 494 344 Q495 329 476 318 Z"/>
+      <path d="M471 308 C481 319 483 335 474 345 Q477 330 463 317 Z"/>
+      <path d="M458 311 C465 322 465 335 455 342 Q460 327 451 320 Z"/>
+    </g>
+  </g>
+</svg>
